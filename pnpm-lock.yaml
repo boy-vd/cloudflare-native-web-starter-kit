@@ -30,7 +30,7 @@ importers:
         specifier: workspace:*
         version: link:tooling/prettier
       '@turbo/gen':
-        specifier: ^2.1.3
+        specifier: ^2.3.3
         version: 2.3.4(@types/node@20.17.16)(typescript@5.7.3)
       prettier:
         specifier: 'catalog:'
@@ -173,11 +173,11 @@ importers:
         specifier: ^5.60.2
         version: 5.64.2(react@18.3.1)
       '@trpc/client':
-        specifier: ^11.0.0-rc.633
-        version: 11.0.0-rc.724(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.3)
+        specifier: 11.0.0-rc.633
+        version: 11.0.0-rc.633(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@trpc/react-query':
         specifier: 11.0.0-rc.633
-        version: 11.0.0-rc.633(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.724(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.3))(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 11.0.0-rc.633(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.633(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@trpc/server':
         specifier: 11.0.0-rc.633
         version: 11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -3078,11 +3078,10 @@ packages:
   '@tootallnate/quickjs-emscripten@0.23.0':
     resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
 
-  '@trpc/client@11.0.0-rc.724':
-    resolution: {integrity: sha512-Ou62Zw2wmfJ/X9/YlSacrGbkLP7FE1Ohv/bgQJYzWctSeEkQkIAsFOgy7a/T0Ry7kD78w3YTf7U1MKOf5X3NNA==}
+  '@trpc/client@11.0.0-rc.633':
+    resolution: {integrity: sha512-fha4Mix/birOFNMIutHXAhkJuZ8Zob0PGZ5s0NVyt4VbIGIpuvx2DYjFQG9lmyt+LEGZklsi1G0QfY+7rNaSmg==}
     peerDependencies:
-      '@trpc/server': 11.0.0-rc.724+0eee7e763
-      typescript: '>=5.7.2'
+      '@trpc/server': 11.0.0-rc.633+55512768a
 
   '@trpc/react-query@11.0.0-rc.633':
     resolution: {integrity: sha512-qrisejoXkk0l+dWiV3ruP2zVboavkm/WHQIm2eAf4mQhvOD6uKbWd7M37ywZZkvPfiPBQRZDWN9y0d1DOsEgcQ==}
@@ -11786,15 +11785,14 @@ snapshots:
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
-  '@trpc/client@11.0.0-rc.724(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.3)':
+  '@trpc/client@11.0.0-rc.633(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@trpc/server': 11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      typescript: 5.7.3
 
-  '@trpc/react-query@11.0.0-rc.633(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.724(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.3))(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@trpc/react-query@11.0.0-rc.633(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.633(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)))(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/react-query': 5.64.2(react@18.3.1)
-      '@trpc/client': 11.0.0-rc.724(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.7.3)
+      '@trpc/client': 11.0.0-rc.633(@trpc/server@11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@trpc/server': 11.0.0-rc.633(@babel/core@7.26.7)(bufferutil@4.0.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -13309,7 +13307,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   dotenv-cli@7.4.4:
     dependencies:
@@ -15370,7 +15368,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   lru-cache@10.4.3: {}
 
@@ -16124,7 +16122,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.8.1
 
   node-abort-controller@3.1.1: {}
 

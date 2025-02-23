@@ -12,14 +12,14 @@ binding = "DAILY_RECAP_WORKFLOW"
 class_name = "DailyRecapWorkflow"
 
 [[r2_buckets]]
-bucket_name = "replace-with-yours"
-preview_bucket_name = "replace-with-yours"
+bucket_name = "r2-demo"
+preview_bucket_name = "r2-preview-demo"
 binding = "IMAGES_BUCKET"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "replace-with-yours"
-database_id = "replace-with-yours"
+database_name = "d1-demo"
+database_id = "e1908a86-0e79-47d1-bb8c-8a331b00976e"
 
 [ai]
 binding = "AI"
